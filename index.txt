@@ -1,5 +1,2 @@
-<<<<<<< HEAD
-ola amigos da rede globo
-=======
-ola amigos  do batman 
->>>>>>> origin/master
+ola amigos  do batman atras do superman
+
