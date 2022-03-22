@@ -62,6 +62,7 @@ obs: HASH - primeiros caracteres da hash do commit
 ```
 Removendo arquivos nao rastreados 
 - obs: vai deletar tudo que nao esta rastreado para sempre.
+
 ```bash
   git clean -f 
 ```
@@ -83,3 +84,30 @@ Outra forma mais simples seria com o comando :
  git revert [caracteres da hash]
 
  ```
+Mostrar todas as modificacoes feitas em nossos arquivos que ja tinhamos feito em nosso repo
+
+```bash 
+ git diff
+```
+Mostrar as modificacoes dos arquivos no stage area e no repositorio 
+
+```bash 
+  git diff staged 
+```
+Deletar arquivos 
+
+```bash
+ git rm [nome do arquivo]
+```
+Renomear arquivos 
+
+```bash 
+ git mv [nome atual] [novo nome]
+```
+Movendo Arquivos
+Podemos usar o comando `git mv`
+
+```bash
+  git mv [arquivo a mover] [diretorio]
+  ex : git mv arquivo.txt  src/
+```
