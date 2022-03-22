@@ -1,4 +1,4 @@
-![logotipo-do-github](https://user-images.githubusercontent.com/67026555/159382476-5dce5a19-ef87-4ee9-9dbe-099a935d2d6f.png)
+![git-githu-cover](https://user-images.githubusercontent.com/67026555/159383829-d0fde861-d0b9-48ab-840c-b25ebc72caa5.png)
 ### Comandos de Git no Terminal Para Iniciantes
 
 Iniciando Git no Projeto
