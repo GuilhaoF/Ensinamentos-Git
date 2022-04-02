@@ -111,7 +111,6 @@ Podemos usar o comando `git mv`
   git mv [arquivo a mover] [diretorio]
   ex : git mv arquivo.txt  src/
 ```
-
 ## arquivos ja rastreados e queremos comitar sem add,usando atalho
 
 : git commit -am ""
