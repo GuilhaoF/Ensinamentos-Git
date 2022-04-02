@@ -68,6 +68,7 @@ Removendo arquivos nao rastreados
 ```
 
 Revertendo um commit
+
 obs: a cada commit subtrairemos -1,considere o commit atual como
 ```bash
   git revert HEAD ~ [numero do commit]
