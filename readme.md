@@ -111,3 +111,27 @@ Podemos usar o comando `git mv`
   git mv [arquivo a mover] [diretorio]
   ex : git mv arquivo.txt  src/
 ```
+
+## arquivos ja rastreados e queremos comitar sem add,usando atalho
+
+: git commit -am ""
+
+## modificacoes  em diversos pontos da historia 
+
+git show [hash do commit]
+
+## ver as palavras/codigos exatos que foram alteradas  no nosso comitt
+
+git show [hash do commit] --color-words
+
+## ignorando arquivos indesejados
+
+```bash
+  1- criamos um arquivo chamado .gitignore e adicionamos dentro dele
+arquivos e repositorios que queremos ignorar 
+  2- depois adicionamos ele ao repositorio com git add
+  3- depois commitamos
+  4- se o arquivo/pasta ja tiver sido adicionado ao repositorio use [git rm -r --cached]
+  5- esse comando vai fazer todos arquivos pararem de serem rastreados
+  6- depois rode um [git add .] ele vai adicionar todos de volta menos os que estao no .gitignore
+```
